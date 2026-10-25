@@ -16,6 +16,11 @@ public class Animal {
         this.consumo = consumo;
     }
 
+// Calcola il costo giornaliero per il cibo per animale
+    public double calcularCosteDiario (double precioAlimentos) {
+        return consumo * precioAlimentos;
+    }
+
     public Cuidador getCuidador () {
         return cuidador;
     }
@@ -30,21 +35,21 @@ public class Animal {
         this.nombre = nombre;
     }
 
-    public String getNombre () {
+    public String getEspecie () {
         return especie;
     }
-    public void setNombre (String especie) {
+    public void setEspecie (String especie) {
         this.especie = especie;
     }
 
-    public float getPeso () {
+    public double getPeso () {
         return peso;
     }
     public void setPeso (double peso) {
         this.peso = peso;
     }
 
-    public float getConsumo () {
+    public double getConsumo () {
         return consumo;
     }
     public void setConsumo (double consumo) {
