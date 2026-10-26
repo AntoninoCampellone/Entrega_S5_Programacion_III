@@ -74,7 +74,7 @@ public class Refugio {
         this.animales = animales;
     }
 
-    public double GetPrecioAlimentos () {
+    public double getPrecioAlimentos () {
         return precioAlimentos;
     }
 // Modifica il prezzo del cibo solo se è superiore a 0
